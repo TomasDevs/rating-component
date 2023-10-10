@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../public/img/favicon.ico"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Rating component</title>
+  </head>
+  <body>
+    <div class="flex justify-center items-center w-screen h-screen bg-gray-900">
+      <div
+        class="wrapper__rating p-9 w-[420px] bg-gray-800 text-white rounded-3xl">
+        <div class="rating flex flex-col space-y-8">
+          <h1 class="text-2xl font-bold">How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering.
+          </p>
+          <ul class="list flex space-x-4">
+            <li
+              class="list__item--one flex justify-center items-center w-14 h-14 text-lg text-gray-400 font-semibold bg-gray-700 rounded-full cursor-pointer transition-all hover:bg-orange-600 hover:text-white">
+              1
+            </li>
+            <li
+              class="list__item---two flex justify-center items-center w-14 h-14 text-lg text-gray-400 font-semibold bg-gray-700 rounded-full cursor-pointer transition-all hover:bg-orange-600 hover:text-white">
+              2
+            </li>
+            <li
+              class="list__item--three flex justify-center items-center w-14 h-14 text-lg text-gray-400 font-semibold bg-gray-700 rounded-full cursor-pointer transition-all hover:bg-orange-600 hover:text-white">
+              3
+            </li>
+            <li
+              class="list__item--four flex justify-center items-center w-14 h-14 text-lg text-gray-400 font-semibold bg-gray-700 rounded-full cursor-pointer transition-all hover:bg-orange-600 hover:text-white">
+              4
+            </li>
+            <li
+              class="list__item--five flex justify-center items-center w-14 h-14 text-lg text-gray-400 font-semibold bg-gray-700 rounded-full cursor-pointer transition-all hover:bg-orange-600 hover:text-white">
+              5
+            </li>
+          </ul>
+          <button
+            type="submit"
+            class="h-14 text-lg font-semibold bg-orange-600 uppercase tracking-widest a rounded-full transition-all hover:bg-white hover:text-orange-600">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
